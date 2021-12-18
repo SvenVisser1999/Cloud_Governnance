@@ -294,3 +294,6 @@ sudo bash openvpn-bulkadd-users.sh users.txt
 #add cockpit
 sudo apt-get install cockpit -y
 sudo systemctl start cockpit
+
+#readd bulk users
+sudo bash openvpn-bulkadd-users.sh users.txt
