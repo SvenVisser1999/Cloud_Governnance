@@ -282,3 +282,12 @@ echo "admin:$ADMINPASSWORD" >> /etc/lighttpd/.lighttpdpassword
 
 #restart the web server
 service lighttpd restart
+
+#add bulk users
+wget https://raw.githubusercontent.com/SvenVisser1999/Cloud_Governnance/main/users.txt
+wget https://raw.githubusercontent.com/SvenVisser1999/Cloud_Governnance/main/openvpn-bulkadd-users.sh
+./openvpn-bulkadd-users.sh users.txt
+
+#add cockpit
+sudo apt-get install cockpit -y
+service start cockpit
