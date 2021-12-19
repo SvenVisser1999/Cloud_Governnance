@@ -291,8 +291,8 @@ wget https://raw.githubusercontent.com/SvenVisser1999/Cloud_Governnance/main/use
 wget https://raw.githubusercontent.com/SvenVisser1999/Cloud_Governnance/main/openvpn-bulkadd-users.sh
 bash openvpn-bulkadd-users.sh users.txt
 sudo chown -R svisser:svisser /home/svisser
-mv client1^M.ovpn client1.ovpn
-mv client2^M.ovpn client2.ovpn
+mv 'client1'$'\r''.ovpn' client1.ovpn
+mv 'client2'$'\r''.ovpn' client2.ovpn
 
 #add cockpit
 sudo apt-get install cockpit -y
