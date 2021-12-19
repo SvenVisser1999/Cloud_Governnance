@@ -17,19 +17,19 @@ fi
 
 newclient () {
 	# Generates the custom client.ovpn
-	cp /etc/openvpn/client-common.txt ~/$1.ovpn
-	echo "<ca>" >> ~/$1.ovpn
-	cat /etc/openvpn/easy-rsa/pki/ca.crt >> ~/$1.ovpn
-	echo "</ca>" >> ~/$1.ovpn
-	echo "<cert>" >> ~/$1.ovpn
-	cat /etc/openvpn/easy-rsa/pki/issued/$1.crt >> ~/$1.ovpn
-	echo "</cert>" >> ~/$1.ovpn
-	echo "<key>" >> ~/$1.ovpn
-	cat /etc/openvpn/easy-rsa/pki/private/$1.key >> ~/$1.ovpn
-	echo "</key>" >> ~/$1.ovpn
-	echo "<tls-auth>" >> ~/$1.ovpn
-	cat /etc/openvpn/ta.key >> ~/$1.ovpn
-	echo "</tls-auth>" >> ~/$1.ovpn
+	cp /etc/openvpn/client-common.txt /home/svisser/$1.ovpn
+	echo "<ca>" >> /home/svisser/$1.ovpn
+	cat /etc/openvpn/easy-rsa/pki/ca.crt >> /home/svisser/$1.ovpn
+	echo "</ca>" >> /home/svisser/$1.ovpn
+	echo "<cert>" >> /home/svisser/$1.ovpn
+	cat /etc/openvpn/easy-rsa/pki/issued/$1.crt >> /home/svisser/$1.ovpn
+	echo "</cert>" >> /home/svisser/$1.ovpn
+	echo "<key>" >> /home/svisser/$1.ovpn
+	cat /etc/openvpn/easy-rsa/pki/private/$1.key >> /home/svisser/$1.ovpn
+	echo "</key>" >> /home/svisser/$1.ovpn
+	echo "<tls-auth>" >> /home/svisser/$1.ovpn
+	cat /etc/openvpn/ta.key >> /home/svisser/$1.ovpn
+	echo "</tls-auth>" >> /home/svisser/$1.ovpn
 }
 
 if [ "$1" = "" ]; then
@@ -46,6 +46,6 @@ while read line; do
 	./easyrsa build-client-full $line nopass
 	newclient "$line"
 	echo ""
-	echo "Client $line added, configuration is available at" ~/"$line.ovpn"
+	echo "Client $line added, configuration is available at" /home/svisser/"$line.ovpn"
 	echo ""
 done < $1
