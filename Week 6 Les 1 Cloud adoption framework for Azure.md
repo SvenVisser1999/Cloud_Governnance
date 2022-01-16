@@ -1,6 +1,19 @@
 # Microsoft Cloud Adoption Framework voor Azure
 [![Microsoft Cloud Adoption Framework voor Azure](https://docs.microsoft.com/nl-nl/azure/cloud-adoption-framework/_images/caf-overview-new.png "Microsoft Cloud Adoption Framework voor Azure by Microsoft")](https://docs.microsoft.com/nl-nl/azure/cloud-adoption-framework/overview)
 
+## Inhoudsopgave
+- [Microsoft Cloud Adoption Framework voor Azure](#microsoft-cloud-adoption-framework-voor-azure)
+  * [Inhoudsopgave](#inhoudsopgave)
+  * [Wat voor framework is het?](#wat-voor-framework-is-het-)
+  * [Hoe draagt het Microsoft Cloud Adoption Framework voor Azure bij aan de governance van cloud processen, componenten, services, business en de mensen die ermee werken?](#hoe-draagt-het-microsoft-cloud-adoption-framework-voor-azure-bij-aan-de-governance-van-cloud-processen--componenten--services--business-en-de-mensen-die-ermee-werken-)
+  * [Is dit een compleet framework?](#is-dit-een-compleet-framework-)
+  * [Wat zijn de sterke en zwakke punten?](#wat-zijn-de-sterke-en-zwakke-punten-)
+    + [Wat zijn de zwakke punten?](#wat-zijn-de-zwakke-punten-)
+    + [Wat zijn de sterke punten](#wat-zijn-de-sterke-punten)
+  * [Wat doen de grote public cloud providers eigenlijk met deze standaard/framework? Conformeren zij zich hieraan?](#wat-doen-de-grote-public-cloud-providers-eigenlijk-met-deze-standaard-framework--conformeren-zij-zich-hieraan-)
+  * [Online video](#online-video)
+  * [Link naar online versie](#link-naar-online-versie)
+  * [Bibliografie](#bibliografie)
 ## Wat voor framework is het?
 Het Microsoft Cloud Adoption Framework voor Azure is een framework bedoeld en designed om organistaies te begeleiden naar de cloud. 
 
