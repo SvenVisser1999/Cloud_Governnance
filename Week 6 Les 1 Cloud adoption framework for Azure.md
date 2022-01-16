@@ -18,6 +18,9 @@ Ik denk het wel, het dekt alles af wat er is, van alle stappen die je moet nemen
 ## Wat zijn de sterke en zwakke punten?
 ### Wat zijn de zwakke punten?
 - Microsoft gefocust
+- Niet makkelijk toepasbaar op een ander platform
+- Niet echt "open"
+- 
 
 ### Wat zijn de sterke punten
 - Compleet
@@ -31,9 +34,8 @@ Alleen Microsoft hanteerd het Microsoft Cloud Adoption Framework voor Azure (duh
 ## Online video
 https://www.microsoft.com/nl-nl/videoplayer/embed/RE4tyzr?autoCaptions=nl-nl 
 
-
-
-
+## Link naar online versie
+https://github.com/SvenVisser1999/Cloud_Governnance/blob/dd1b3afef1a104fb3b4d2a306ba970ef73dfd4aa/Week%206%20Les%201%20Cloud%20adoption%20framework%20for%20Azure.md
 
 ## Bibliografie
 1. Microsoft. (2022, 4 januari). Documentatie voor Microsoft Cloud Adoption Framework for Azure - Cloud Adoption Framework. Microsoft Docs. Geraadpleegd op 16 januari 2022, van https://docs.microsoft.com/nl-nl/azure/cloud-adoption-framework/overview
