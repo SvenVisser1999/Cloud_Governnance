@@ -29,8 +29,6 @@ Ik denk het wel, het dekt alles af wat er is, van alle stappen die je moet nemen
 Alleen Microsoft hanteerd het Microsoft Cloud Adoption Framework voor Azure (duh), maar AWS heeft wel zijn eigen versie geschreven met wat zij belangrijk vinden. Ook Google heeft zijn eigen versie geschreven. Dus je kan wel zeggen dat de grote jongens zich hieraan conformeren, hetzij ieder in een eigen jasje.
 
 ## Online video
-<iframe src="https://www.microsoft.com/nl-nl/videoplayer/embed/RE4tyzr?autoCaptions=nl-nl" style="border:0px #ffffff none;" name="CAF Video" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
-
 https://www.microsoft.com/nl-nl/videoplayer/embed/RE4tyzr?autoCaptions=nl-nl 
 
 
