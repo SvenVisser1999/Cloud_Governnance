@@ -20,7 +20,6 @@ Ik denk het wel, het dekt alles af wat er is, van alle stappen die je moet nemen
 - Microsoft gefocust
 - Niet makkelijk toepasbaar op een ander platform
 - Niet echt "open"
-- 
 
 ### Wat zijn de sterke punten
 - Compleet
